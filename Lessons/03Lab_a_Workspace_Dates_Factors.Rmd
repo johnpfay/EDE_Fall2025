@@ -32,7 +32,7 @@ We have options to change the working directory, e.g. via the `setwd()` statemen
 ### An alternative: the `here` package
 
 And thus we introduce the `here` package, designed to streamline this process. A more detailed description of the library and its rationale can be found here: 
- - Overview:    https://here.r-lib.org & http://jenrichmond.rbind.io/post/how-to-use-the-here-package/
+ - Overview:    https://here.r-lib.org 
  - Github repo: https://github.com/jennybc/here_here
  
 ```{r The here package}
@@ -72,7 +72,7 @@ print(filenames)
 ### Exercise: the here package in action
 
 1.    Use the `here` package with `read.csv()` to read the `NTL-LTER_Lake_ChemistryPhysics_Raw.csv` file into a dataframe.
-2.    Refer to the example code shown here (http://jenrichmond.rbind.io/post/where-is-here/) to read in all CSV files starting with "EPAair_03" into a single dataframe. 
+2.    Refer to the example code shown here (https://people.duke.edu/~jpfay/ENV872/here.html) to read in all CSV files starting with "EPAair_03" into a single dataframe. 
   -   Note: You'll have to import `tidyverse` for `%>%` to work. Also, you may need to look at additional arguments in the `dir()` function...
  
 ```{r here in action}
