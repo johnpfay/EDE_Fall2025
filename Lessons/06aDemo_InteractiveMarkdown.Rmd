@@ -146,7 +146,7 @@ The data used to populate the table is generated from the code inside the curly 
 
 -   So, try modifying the variable name in the first line of code, changing `n` to `user_val`. For the renderer to get the correct value, `input$n` will have to also be updated to `input$user_val`.
 
--   Alternatively, add another renderer to the code: `renderPrint()` which simply prints a message. Set the argument to `print(paste,"You selected",input$n)`. It should simply print the value selected in the `numericInput()` widget. 
+-   Alternatively, add another renderer to the code: `renderPrint()` which simply prints a message. Set the argument to `print(paste("You selected",input$n)`. It should simply print the value selected in the `numericInput()` widget. 
 
 #### Other widgets
 Shiny has many other input widgets: https://shiny.rstudio.com/gallery/widget-gallery.html. Below we'll use a Select Box widget to specify the variable shown in our plot. We'll also add a slider range to limit the date shown in our plot. 
