@@ -66,7 +66,7 @@ my_plot <- nutrient_data %>%
     x = "Date", 
     y = expression(Concentration ~ (mu*g / L)), 
     shape = "Lake", 
-    fill = "Depth (m)") +
+    color = "Depth (m)") +
   scale_color_viridis_c(
     option = "mako", 
     guide = guide_colorbar(reverse = T),
@@ -108,7 +108,7 @@ my_plot2 <- nutrient_data %>%
     x = "Date", 
     y = expression(Concentration ~ (mu*g / L)), 
     shape = "Lake", 
-    fill = "Depth (m)") +
+    color = "Depth (m)") +
   scale_color_viridis_c(
     option = "mako", 
     guide = guide_colorbar(reverse = T),
@@ -146,7 +146,7 @@ plot_it <- function(the_parameter,start_year,end_year){
       x = "Date", 
       y = expression(Concentration ~ (mu*g / L)), 
       shape = "Lake", 
-      fill = "Depth (m)") +
+      color = "Depth (m)") +
     scale_color_viridis_c(
       option = "mako", 
       guide = guide_colorbar(reverse = T),
