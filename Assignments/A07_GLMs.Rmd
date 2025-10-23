@@ -19,6 +19,8 @@ This exercise accompanies the lessons in Environmental Data Analytics on general
 4. Be sure to **answer the questions** in this assignment document.
 5. When you have completed the assignment, **Knit** the text and code into a single PDF file.
 
+**!! AI generated code should NOT be used in this assignment**
+
 
 ## Set up your session 
 1. Set up your session. Check your working directory. Load the tidyverse, agricolae and other needed packages. Import the *raw* NTL-LTER raw data file for chemistry/physics (`NTL-LTER_Lake_ChemistryPhysics_Raw.csv`). Set date columns to date objects.
